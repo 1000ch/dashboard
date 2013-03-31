@@ -3,6 +3,7 @@
 ##Premise
 
 Macのシステム標準のPython2.7を利用したPythonの実行環境を用意する。  
+仮想化のため、`virtualenv`と`source ./bin/activate`で実行。  
 
 ##distributeをインストールする
 
