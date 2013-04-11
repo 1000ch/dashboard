@@ -3,6 +3,7 @@
 ##Premise
 
 Macのシステム標準のPython2.7を利用したPythonの実行環境を用意する。  
+最新版(Python3.3.1とか)でも、もちろん同様の手順で作成可能。  
 仮想化のため、`virtualenv`と`source ./bin/activate`で実行。  
 
 ##distributeをインストールする
@@ -46,9 +47,20 @@ pipがなかったらインストールする。
 ##virtualenvを使ってpythonの環境を作成する
 
 デフォルトでインストールされているpythonを使う。  
+この場合、`/System/Library/Frameworks/Python.framework`あたりを参照。  
 
     mkdir pythonenv
     
     virtualenv --distribute pythonenv --python python2.7
     
     source ./pythonenv/bin/activate
+
+pkgからインストールしたpythonを使う。  
+
+    mkdir pythonenv
+    
+    virtualenv --distribute pythonenv --python python3.3
+    
+    source ./pythonenv/bin/activate
+
+この場合だと、`/Library/Frameworks/Python.framework`配下のpythonを使う。  
