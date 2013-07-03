@@ -1,12 +1,12 @@
-#Python
+# Python
 
-##Premise
+## Premise
 
 Macのシステム標準のPython2.7を利用したPythonの実行環境を用意する。  
 最新版(Python3.3.1とか)でも、もちろん同様の手順で作成可能。  
 仮想化のため、`virtualenv`と`source ./bin/activate`で実行。  
 
-##distributeをインストールする
+## distributeをインストールする
 
 + [python-distribute.org](http://python-distribute.org/)
 
@@ -19,7 +19,7 @@ Macのシステム標準のPython2.7を利用したPythonの実行環境を用�
     
     easy_install --help
 
-##virtualenvをインストールする
+## virtualenvをインストールする
 
 + [virtualenv.org](http://www.virtualenv.org/)
 
@@ -27,7 +27,7 @@ Macのシステム標準のPython2.7を利用したPythonの実行環境を用�
 
     easy_install virtualenv
 
-##pipをインストールする
+## pipをインストールする
 
 + [pip](http://www.pip-installer.org/)
 
@@ -44,7 +44,7 @@ pipがなかったらインストールする。
 
     easy_install pip
 
-##virtualenvを使ってpythonの環境を作成する
+## virtualenvを使ってpythonの環境を作成する
 
 デフォルトでインストールされているpythonを使う。  
 この場合、`/System/Library/Frameworks/Python.framework`あたりを参照。  
