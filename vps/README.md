@@ -47,9 +47,19 @@ sshdの設定を記述するsshd_configを編集します。
 
     PermitRootLogin no
 
-rootログインを拒否し、保存します。  
+rootログインを拒否します。  
+
+### sshのポートを変更
+
+同様にsshd_configの設定を変更します。  
+
+    Port 22
+
+ポート番号を変更して保存します。忘れないように！  
+
+### sshdの再起動
 
     /etc/init.d/sshd restart
 
-sshdデーモンを再起動します。  
+sshdデーモンを再起動し、変更を適用します。  
 
