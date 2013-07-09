@@ -53,7 +53,7 @@ rootログインを拒否します。
 
 同様にsshd_configの設定を変更します。  
 
-    Port 22
+    Port [portnumber]
 
 ポート番号を変更して保存します。忘れないように！  
 
@@ -63,3 +63,45 @@ rootログインを拒否します。
 
 sshdデーモンを再起動し、変更を適用します。  
 
+## ローカルの秘密鍵を利用してログインする設定
+
+今回はVPS用のsshkeyを用意し、設定します。  
+
+### sshkeyを用意
+
+    ssh-keygen -t rsa
+    
+    Enter file in which to save the key...: hoge_rsa
+
+`-t`で鍵の種類を指定します。  
+ここではhoge_rsaという名前のkeyを用意しました。  
+
+### ローカルで用意した公開鍵をVPSに登録する
+
+サーバーにログインし、ホームディレクトリに`.ssh`フォルダを作成します。  
+
+    cd ~
+    mkdir .ssh
+    chmod 700 .ssh
+
+一旦ログアウトし、ローカルの公開鍵をサーバーにコピーします。  
+先程`22`ポートではログイン不可にしてあるので、ポート番号を指定して`scp`する必要があります。  
+
+    scp -P [portnumber] ~/.ssh/hoge_rsa.pub [username]@[hostname]:.
+
+再度サーバーにログインし、コピーした公開鍵を`authorized_keys`に登録します。  
+
+    cat hoge_rsa.pub > ~/.ssh/authorized_keys
+    chmod 600 ~/.ssh/authorized_keys
+
+ローカルから`scp`した公開鍵を削除します。  
+
+    rm hoge_rsa.pub
+
+sshdを再起動し、変更を適用します。  
+
+    /etc/init.d/sshd restart
+
+ログアウトし、秘密鍵を使用してログインします。  
+
+    ssh -p [portnumber] -i ~/.ssh/hoge_rsa [username]@[hostname]
