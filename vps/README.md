@@ -105,3 +105,52 @@ sshdを再起動し、変更を適用します。
 ログアウトし、秘密鍵を使用してログインします。  
 
     ssh -p [portnumber] -i ~/.ssh/hoge_rsa [username]@[hostname]
+
+## ファイアーウォール
+
+### iptablesで最低限のファイアーウォール
+
+iptablesファイルを作成、または編集します。  
+
+    cd /etc/sysconfig
+    
+    vim iptables
+
+以下が設定のサンプルです。  
+
+    *filter
+    -A INPUT -i lo -j ACCEPT
+    -A INPUT -s 10.0.0.0/255.0.0.0 -j DROP
+    -A INPUT -s 172.16.0.0/255.240.0.0 -j DROP
+    -A INPUT -s 192.168.0.0/255.255.0.0 -j DROP
+    -A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT
+    -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+    -A INPUT -p tcp -m tcp --dport [portnumber] -j ACCEPT
+    -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+    -A OUTPUT -o lo -j ACCEPT
+    COMMIT
+
+保存後、再起動します。  
+
+    /etc/rc.d/init.d/iptables restart
+
+## Webサーバーの設定
+
+### Apacheをインストールする
+
+yumでapacheをインストールします。  
+自動で起動するように`chkconfig`も設定します。  
+
+    yum install httpd
+    
+    chkconfig httpd on
+
+### Apacheの設定をする
+
+apacheの設定ファイルがある場所に移動します。  
+
+    cd /etc/httpd/conf
+
+まず、設定ファイル`httpd.conf`のバックアップを取ります。  
+
+    cp httpd.conf httpd.conf.bk
