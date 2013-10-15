@@ -1,14 +1,15 @@
-# environment
+# memo
 
 ## About
 
-環境周りをメモしていく。  
+This is just a memo.
 
 ## List
 
-+ [python](https://github.com/1000ch/environment/tree/master/python)
-+ [ruby](https://github.com/1000ch/environment/tree/master/ruby)
-+ [node](https://github.com/1000ch/environment/tree/master/node)
+- [Ruby](/1000ch/memo/wiki/Ruby)
+- [Python](/1000ch/memo/wiki/Python)
+- [Node](/1000ch/memo/wiki/Node)
+- [Server](/1000ch/memo/wiki/Server)
 
 ## Lisence
 
