@@ -27,8 +27,8 @@ function gz() {
 
 # Escape UTF-8 characters into their 3-byte format
 function escape() {
-        printf "\\\x%s" $(printf "$@" | xxd -p -c1 -u)
-        echo # newline
+  printf "\\\x%s" $(printf "$@" | xxd -p -c1 -u)
+  echo # newline
 }
 
 # Extract archives - use: extract <file>
