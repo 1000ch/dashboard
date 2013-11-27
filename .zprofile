@@ -31,9 +31,8 @@ export PATH="$PATH":`pwd`/depot_tools
 # export ~/bin
 export PATH="~/bin:$PATH"
 
-# added by travis gem
-source /Users/sensui_shogo/.travis/travis.sh
-
 # use nvm
 [[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh
 
+# load functions
+source ~/.functions
