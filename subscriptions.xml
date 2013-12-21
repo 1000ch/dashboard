@@ -2,7 +2,7 @@
 <opml version="1.0">
   <head>
     <title>RSS subscriptions for shogo.sensui@gmail.com</title>
-    <dateCreated>Sat, 16 Nov 2013 01:03:59 -0600</dateCreated>
+    <dateCreated>Sat, 21 Dec 2013 00:57:03 -0600</dateCreated>
     <ownerEmail>shogo.sensui@gmail.com</ownerEmail>
   </head>
   <body>
@@ -30,6 +30,7 @@
 <outline text="W3C Blog" title="W3C Blog" type="rss" xmlUrl="http://www.w3.org/QA/atom.xml" htmlUrl="http://www.w3.org/QA/"/>
 <outline text="Stubbornella" title="Stubbornella" type="rss" xmlUrl="http://www.stubbornella.org/content/feed/" htmlUrl="http://www.stubbornella.org/content"/>
 <outline text="Google Webmaster Central Blog" title="Google Webmaster Central Blog" type="rss" xmlUrl="http://feeds.feedburner.com/blogspot/amDG" htmlUrl="http://googlewebmastercentral.blogspot.com/"/>
+<outline text="A List Apart: The Abridged Feed" title="A List Apart: The Abridged Feed" type="rss" xmlUrl="http://feeds.feedburner.com/alistapart/abridged" htmlUrl="http://alistapart.com"/>
 <outline text="HTML5 Weekly Archive Feed" title="HTML5 Weekly Archive Feed" type="rss" xmlUrl="http://us1.campaign-archive.com/feed?u=0618f6a79d6bb9675f313ceb2&amp;id=07e1174dde" htmlUrl="http://us1.campaign-archive.com/feed?u=0618f6a79d6bb9675f313ceb2&amp;id=07e1174dde"/>
 <outline text="FT LabsFT Labs" title="FT LabsFT Labs" type="rss" xmlUrl="http://labs.ft.com/feed/" htmlUrl="http://labs.ft.com"/>
 <outline text="TJ Holowaychuk" title="TJ Holowaychuk" type="rss" xmlUrl="http://tjholowaychuk.com/rss" htmlUrl="http://tjholowaychuk.com/"/>
@@ -45,6 +46,9 @@
 <outline text="日本語版Twitterサイト開発ブログ" title="日本語版Twitterサイト開発ブログ" type="rss" xmlUrl="http://twitterjp.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://twitterjp.blogspot.com/"/>
 <outline text="When Can I Use updates" title="When Can I Use updates" type="rss" xmlUrl="http://feeds.feedburner.com/WhenCanIUse" htmlUrl="http://caniuse.com/feed.php"/>
 <outline text="raganwald.com" title="raganwald.com" type="rss" xmlUrl="http://raganwald.com/rss.xml" htmlUrl="http://raganwald.com/"/>
+<outline text="Performance Matters" title="Performance Matters" type="rss" xmlUrl="http://blog.patrickmeenan.com/feeds/posts/default?alt=rss" htmlUrl="http://blog.patrickmeenan.com/"/>
+<outline text="The Akamai Blog" title="The Akamai Blog" type="rss" xmlUrl="http://feeds.feedburner.com/TheAkamaiBlog" htmlUrl="https://blogs.akamai.com/"/>
+<outline text="Google Japan Developer Relations Blog" title="Google Japan Developer Relations Blog" type="rss" xmlUrl="http://feeds.feedburner.com/GoogleJapanDeveloperRelationsBlog" htmlUrl="http://googledevjp.blogspot.com/"/>
 <outline text="W3C News" title="W3C News" type="rss" xmlUrl="http://www.w3.org/News/news.rss" htmlUrl="http://www.w3.org/"/>
 <outline text="Nettuts+" title="Nettuts+" type="rss" xmlUrl="http://feeds.feedburner.com/nettuts-summary" htmlUrl="http://net.tutsplus.com"/>
 <outline text="ハブろぐ - havelog.ayumusato.com のフィード" title="ハブろぐ - havelog.ayumusato.com のフィード" type="rss" xmlUrl="http://feeds.feedburner.com/blogayumusato" htmlUrl="http://havelog.ayumusato.com/"/>
@@ -52,12 +56,15 @@
 <outline text="Five | Archiving cssradar@twitter" title="Five | Archiving cssradar@twitter" type="rss" xmlUrl="http://five.studiomohawk.com/atom.xml" htmlUrl="http://five.studiomohawk.com"/>
 <outline text="OpenWeb" title="OpenWeb" type="rss" xmlUrl="http://openweb.co.jp/feed/" htmlUrl="http://openweb.co.jp"/>
 <outline text="CSS Weekly" title="CSS Weekly" type="rss" xmlUrl="http://feeds.feedburner.com/CSS-Weekly" htmlUrl="http://css-weekly.com"/>
+<outline text="Eric Bidelman" title="Eric Bidelman" type="rss" xmlUrl="http://ericbidelman.tumblr.com/rss" htmlUrl="http://ericbidelman.tumblr.com/"/>
 <outline text="The CSS Ninja" title="The CSS Ninja" type="rss" xmlUrl="http://www.thecssninja.com/feed" htmlUrl="http://www.thecssninja.com"/>
 <outline text="Pinboard (network items for studiomohawk)" title="Pinboard (network items for studiomohawk)" type="rss" xmlUrl="http://feeds.pinboard.in/rss/secret:b3469ed096a36b08668e/u:studiomohawk/network/" htmlUrl="http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Ffeeds.pinboard.in%2Frss%2Fsecret%3Ab3469ed096a36b08668e%2Fu%3Astudiomohawk%2Fnetwork%2F"/>
+<outline text="Inspire RSS" title="Inspire RSS" type="rss" xmlUrl="http://www.adobe.com/content/dotcom/en/inspire.rss.__autoinvalidate.xml" htmlUrl="http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fwww.adobe.com%2Fcontent%2Fdotcom%2Fen%2Finspire.rss.__autoinvalidate.xml"/>
 <outline text="Modern JavaScript" title="Modern JavaScript" type="rss" xmlUrl="http://modernjavascript.blogspot.com/feeds/posts/default" htmlUrl="http://modernjavascript.blogspot.com/"/>
 <outline text="Google Chrome Blog" title="Google Chrome Blog" type="rss" xmlUrl="http://chrome.blogspot.com/atom.xml" htmlUrl="http://chrome.blogspot.com/"/>
 <outline text="JavaScript Cookbook" title="JavaScript Cookbook" type="rss" xmlUrl="http://www.javascriptcookbook.com/rss" htmlUrl="http://www.javascriptcookbook.com"/>
 <outline text="Alex Sexton" title="Alex Sexton" type="rss" xmlUrl="http://alexsexton.com/?feed=rss2" htmlUrl="http://alexsexton.com/"/>
+<outline text="Flippin' Awesome" title="Flippin' Awesome" type="rss" xmlUrl="http://feeds.feedburner.com/FlippinAwesome" htmlUrl="http://flippinawesome.org"/>
 <outline text="HTML5Experts.jp" title="HTML5Experts.jp" type="rss" xmlUrl="http://html5experts.jp/feed/" htmlUrl="http://html5experts.jp"/>
 <outline text="1000ch.net" title="1000ch.net" type="rss" xmlUrl="http://1000ch.net/rss.xml" htmlUrl="http://1000ch.net"/>
 <outline text="Developer Relations team blog" title="Developer Relations team blog" type="rss" xmlUrl="http://my.opera.com/ODIN/xml/rss/blog" htmlUrl="http://"/>
