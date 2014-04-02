@@ -15,24 +15,20 @@ setopt print_eight_bit
 # set comment as #
 setopt interactive_comments
 
-# unset correction
-unsetopt correctall
+# nvm
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh
 
-# arround ruby
+# rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# heroku toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
-# depot_tools
-export PATH="$PATH":`pwd`/depot_tools
+# load functions and alias
+source .functions
+source .alias
 
-# export ~/bin
-export PATH="~/bin:$PATH"
-
-# use nvm
-[[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh
-
-# load functions
-source ~/.functions
+export PATH="$PATH":~/workspace/depot_tools

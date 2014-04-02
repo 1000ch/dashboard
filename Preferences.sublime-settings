@@ -1,0 +1,15 @@
+{
+  "theme": "Nexus.sublime-theme",
+  "auto_indent": true,
+  "detect_indentation": true,
+  "smart_indent": true,
+  "draw_white_space": "all",
+  "font_face": "Consolas",
+  "font_size": 20,
+  "highlight_line": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "use_tab_stops": true,
+  "word_wrap": false,
+  "ignored_packages": ["Vintage", "ZenCoding"]
+}
