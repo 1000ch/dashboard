@@ -2,7 +2,7 @@
 <opml version="1.0">
   <head>
     <title>RSS subscriptions for shogo.sensui@gmail.com</title>
-    <dateCreated>Sat, 07 Jun 2014 11:18:38 -0500</dateCreated>
+    <dateCreated>Tue, 22 Jul 2014 21:17:16 -0500</dateCreated>
     <ownerEmail>shogo.sensui@gmail.com</ownerEmail>
   </head>
   <body>
@@ -13,6 +13,7 @@
 <outline text=".net" title=".net" type="rss" xmlUrl="http://feeds.feedburner.com/net/topstories" htmlUrl="http://www.netmagazine.com"/>
 <outline text="YDN Blog" title="YDN Blog" type="rss" xmlUrl="http://feeds.developer.yahoo.net/YDNBlog" htmlUrl="http://developer.yahoo.com/blogs/ydn"/>
 <outline text="Chromium Blog" title="Chromium Blog" type="rss" xmlUrl="http://blog.chromium.org/feeds/posts/default" htmlUrl="http://blog.chromium.org/"/>
+<outline text="Adventures in JavaScript Development" title="Adventures in JavaScript Development" type="rss" xmlUrl="http://rmurphey.com/atom.xml" htmlUrl="http://rmurphey.github.com/"/>
 <outline text="Javascript Jabber" title="Javascript Jabber" type="rss" xmlUrl="http://feeds.feedburner.com/JavascriptJabber" htmlUrl="http://javascriptjabber.com"/>
 <outline text="Paul Irish" title="Paul Irish" type="rss" xmlUrl="http://feeds.feedburner.com/paul-irish" htmlUrl="http://paulirish.com"/>
 <outline text="don't code today what you can't debug tomorrow" title="don't code today what you can't debug tomorrow" type="rss" xmlUrl="http://ariya.ofilabs.com/feed" htmlUrl="http://ariya.ofilabs.com"/>
@@ -46,10 +47,12 @@
 <outline text="Echo JS" title="Echo JS" type="rss" xmlUrl="http://www.echojs.com/rss" htmlUrl="http://www.echojs.com"/>
 <outline text="JavaScript Weekly Archive Feed" title="JavaScript Weekly Archive Feed" type="rss" xmlUrl="http://us1.campaign-archive.com/feed?u=0618f6a79d6bb9675f313ceb2&amp;id=596bcf37c5" htmlUrl="http://us1.campaign-archive.com/feed?u=0618f6a79d6bb9675f313ceb2&amp;id=596bcf37c5"/>
 <outline text="日本語版Twitterサイト開発ブログ" title="日本語版Twitterサイト開発ブログ" type="rss" xmlUrl="http://twitterjp.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://twitterjp.blogspot.com/"/>
+<outline text="Bocoup Blog" title="Bocoup Blog" type="rss" xmlUrl="http://feeds.feedburner.com/bocoup" htmlUrl="http://weblog.bocoup.com/feed"/>
 <outline text="JavaScript" title="JavaScript" type="rss" xmlUrl="http://www.reddit.com/r/javascript/.rss" htmlUrl="http://www.reddit.com/r/javascript/"/>
 <outline text="When Can I Use updates" title="When Can I Use updates" type="rss" xmlUrl="http://feeds.feedburner.com/WhenCanIUse" htmlUrl="http://caniuse.com/feed.php"/>
 <outline text="raganwald.com" title="raganwald.com" type="rss" xmlUrl="http://raganwald.com/rss.xml" htmlUrl="http://raganwald.com/"/>
 <outline text="Performance Matters" title="Performance Matters" type="rss" xmlUrl="http://blog.patrickmeenan.com/feeds/posts/default?alt=rss" htmlUrl="http://blog.patrickmeenan.com/"/>
+<outline text="Hidden Variables" title="Hidden Variables" type="rss" xmlUrl="http://domenic.me/atom.xml" htmlUrl="http://domenic.me/"/>
 <outline text="The Akamai Blog" title="The Akamai Blog" type="rss" xmlUrl="http://feeds.feedburner.com/TheAkamaiBlog" htmlUrl="https://blogs.akamai.com/"/>
 <outline text="Aerotwist Blog" title="Aerotwist Blog" type="rss" xmlUrl="http://aerotwist.com/blog/feed/" htmlUrl="http://aerotwist.com/blog/feed/"/>
 <outline text="Google Japan Developer Relations Blog" title="Google Japan Developer Relations Blog" type="rss" xmlUrl="http://feeds.feedburner.com/GoogleJapanDeveloperRelationsBlog" htmlUrl="http://googledevjp.blogspot.com/"/>
@@ -72,6 +75,7 @@
 <outline text="Flippin' Awesome" title="Flippin' Awesome" type="rss" xmlUrl="http://feeds.feedburner.com/FlippinAwesome" htmlUrl="http://flippinawesome.org"/>
 <outline text="Jake Archibald's Blog" title="Jake Archibald's Blog" type="rss" xmlUrl="http://jakearchibald.com/posts.rss" htmlUrl="http://jakearchibald.com/2013/progressive-enhancement-still-important/"/>
 <outline text="HTML5Experts.jp" title="HTML5Experts.jp" type="rss" xmlUrl="http://html5experts.jp/feed/" htmlUrl="http://html5experts.jp"/>
+<outline text="Weblog - hail2u.net" title="Weblog - hail2u.net" type="rss" xmlUrl="http://hail2u.net/blog/feed" htmlUrl="http://hail2u.net/blog/"/>
 <outline text="1000ch.net" title="1000ch.net" type="rss" xmlUrl="http://1000ch.net/rss.xml" htmlUrl="http://1000ch.net"/>
 <outline text="Developer Relations team blog" title="Developer Relations team blog" type="rss" xmlUrl="http://my.opera.com/ODIN/xml/rss/blog" htmlUrl="http://"/>
 <outline text="blog :: Web notes.log" title="blog :: Web notes.log" type="rss" xmlUrl="http://blog.wnotes.net/blog/feed/rss2" htmlUrl="http://blog.wnotes.net/blog/entries"/>
@@ -85,6 +89,8 @@
 <outline text="Dart Weekly" title="Dart Weekly" type="rss" xmlUrl="http://dartweekly.com/rss/1damp6hg" htmlUrl="http://dartweekly.com/"/>
 <outline text="JavaScript Weekly" title="JavaScript Weekly" type="rss" xmlUrl="http://javascriptweekly.com/rss/1jhjc497" htmlUrl="http://javascriptweekly.com/"/>
 <outline text="Ruby Weekly" title="Ruby Weekly" type="rss" xmlUrl="http://rubyweekly.com/rss/20jlb54k" htmlUrl="http://rubyweekly.com/"/>
+<outline text="Fastly - The Next Gen CDN blogs" title="Fastly - The Next Gen CDN blogs" type="rss" xmlUrl="http://www.fastly.com/blog/feed" htmlUrl="http://www.fastly.com/node/162"/>
 <outline text="simurai" title="simurai" type="rss" xmlUrl="http://simurai.com/blog/atom.xml" htmlUrl="2014-05-26T20:49:38-07:00&#10;  http://simurai.com"/>
+<outline text="Pete LePage" title="Pete LePage" type="rss" xmlUrl="http://feeds.feedburner.com/petelepage" htmlUrl="http://www.petelepage.com"/>
   </body>
 </opml>
