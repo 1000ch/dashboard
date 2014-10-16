@@ -1,15 +1,15 @@
 {
-  "theme": "Nexus.sublime-theme",
   "auto_indent": true,
+  "color_scheme": "Packages/User/Monokai (SL).tmTheme",
   "detect_indentation": true,
-  "smart_indent": true,
   "draw_white_space": "all",
   "font_face": "Consolas",
-  "font_size": 20,
+  "font_size": 14,
   "highlight_line": true,
+  "smart_indent": true,
   "tab_size": 2,
+  "theme": "Phoenix Dark.sublime-theme",
   "translate_tabs_to_spaces": true,
   "use_tab_stops": true,
-  "word_wrap": false,
-  "ignored_packages": ["Vintage", "ZenCoding"]
+  "word_wrap": false
 }
